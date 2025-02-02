@@ -1,3 +1,0 @@
-ERROR: 0 occurrences
-WARNING: 0 occurrences
-INFO: 0 occurrences
