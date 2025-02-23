@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Education Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="instructors.html">Instructors</a></li>
+        <li><a href="enrollment.html">Enrollment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="carousel">
+      
+      <h2>Featured Courses</h2>
+      <div class="carousel-content">
+       
+        <div class="carousel-item">Course 1</div>
+        <div class="carousel-item">Course 2</div>
+        <div class="carousel-item">Course 3</div>
+      </div>
+    </section>
+
+    <section class="course-categories">
+      <h2>Browse Courses</h2>
+      <div class="tabs">
+        <button class="tab" onclick="filterCourses('all')">All Courses</button>
+        <button class="tab" onclick="filterCourses('programming')">Programming</button>
+        <button class="tab" onclick="filterCourses('design')">Design</button>
+      </div>
+      <div id="course-list">
+      
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Online Education Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

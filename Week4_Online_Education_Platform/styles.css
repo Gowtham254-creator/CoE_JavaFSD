@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+ 
+  main {
+    padding: 2rem;
+  }
+  
+  .carousel {
+    margin-bottom: 2rem;
+  }
+  
+  .carousel-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .carousel-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    background-color: #ccc;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+ 
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  @media (max-width: 600px) {
+    .carousel-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tabs {
+      flex-direction: column;
+    }
+  }
+  
