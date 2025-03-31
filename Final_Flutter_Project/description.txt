@@ -1,1 +1,2 @@
+A Digital Receipt Organizer is an app that helps users digitize, categorize, and manage their receipts efficiently. The app scans physical receipts, extracts relevant data using Optical Character Recognition (OCR), stores the information in a structured format, and offers various features to keep receipts organized.
 
