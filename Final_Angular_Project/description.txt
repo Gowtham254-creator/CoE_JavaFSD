@@ -1,1 +1,1 @@
-
+A Job Portal Web Application built using Angular provides a seamless platform for job seekers and employers to connect. It features secure authentication, dynamic job listings with filters, job posting and management for employers, and an enquiry section for user queries. 
